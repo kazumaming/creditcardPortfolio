@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ja">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="クレジットカードの比較です。プログラミング学習の一環として作りました。" />
+    <title>クレジットカード比較</title>
+    <link rel="icon" href="画像のURL" sizes="32x32" />
+    <link rel="icon" href="画像のURL" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="画像のURL" />
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="モバイルページのURL" />
+    <link rel="alternate" hreflang="外国語ページのURL" />
+    <link rel="canonical" href="正規ページのURL">
+    <link rel="stylesheet" href="creditcard.css">
+    <style type="text/css">
+      /* .red {
+        color: red;
+      }
+
+      .bg-blue {
+        background-color: blue;
+      } */
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <header class="main-bg">
+      <div class="center-header">
+        <ul class="slide clearfix">
+          <li><img src="medium_medium_1122001400_f.png"></li>
+          <li class="non-active"><img src="mitsuisumitomovisa_classic.png"></li>
+          <li class="non-active"><img src="img_hero_card_silver_visa_01.png"></li>
+        </ul>
+        <h1>あなたに最高のクレジットカードを</h1>
+      </div>
+    </header>
+    <!-- クレジットカード選択ボタン -->
+    <form>
+      <div class="gyu">
+        <p>ブランドで検索できます</p>
+        <div class="search-box">
+          <input name="kind" value="a" id="visa" type="radio" class="visa-choice" ><label for="visa"><img src="visa-1af9fd37748238b15f3bc2a70598ae4e32e906e67fe65395d4d6e1e0a01d5f36.png"></label>
+          <input name="kind" value="b" id="mastercard" type="radio" class="mastercard-choice" ><label for="mastercard"><img src="master_card-60073dbce64f1833e428a1935d555908f34a73ecd37a567a9c263148062dcd87.png"></label>
+          <input name="kind" value="c" id="jcb" type="radio" class="jcb-choice" ><label for="jcb"><img src="header-logo.png" style="height: 27px;"></label>
+          <input name="kind" value="d" id="amex" type="radio" class="amex-choice"> <label for="amex"><img src="140px-American_Express_logo_(2018).svg.png" style="height: 27px;"></label>
+        </div>
+        <!-- <div id="kensaku">検索</div> -->
+      </div>
+    </form>
+    <ul class="list">
+    <!-- JCB CARD W -->
+      <li class="list-item jcb-item" data-kind="c">
+        <div class="cardframe-one">
+          <a class="alp" href="https://www.jcb.co.jp/promotion/ordercard/w/ex/?13237243150100&ad_id=cojp_osw2sp_rtg_crt2016o_os0770&utm_medium=rtg__oss&utm_source=criteo__oss&utm_term=0000018__oss__99999">
+            <div class="kiu">
+              <img width="300px" height="" alt="JCB CARD W" src="https://image-sharing.s3.amazonaws.com/uploads/credit/path/1448/medium_medium_1122001400_f.png" class="jcbcardw">
+              <div class="ffd">
+                <div class="brand-money">
+                  <div class="brand-money-sen">国際ブランド</div>
+                  <img width="45px" height="45px" src="header-logo.png" >
+                </div>
+                <div class="brand-money">
+                  <div class="brand-money-sen">電子マネー</div>
+                  <img width="45px" height="45px" src="quicpay-0fa9d0b32c7a27fe2db538005faab5d46c718851a3ae190a3d138792ccd3cecf.png">
+                </div>
+              </div>
+            </div>
+            <div class="ddd">
+              <h1>JCB CARD W</h1>
+              <table class="qwe">
+                <tr class="rte">
+                  <th class="giu">年会費</th>
+                  <td class="goi">無料</td>
+                  <th class="giu">発行スピード</th>
+                  <td class="goi">最短３営業日（通常１週間程度）</td>
+                </tr>
+                <tr>
+                  <th class="giu">特典</th>
+                  <td class="goi oki oku" id="goii">okidokiポイント</td>
+                  <th class="giu">還元率</th>
+                  <td class="goi">1.0%〜5.5%</td>
+                </tr>
+              </table>
+              <p>「年会費永年無料」で「常にポイント<span style="font-weight: bold;">２倍</span> ※」のとてもお得なカード！毎年クレジットカード人気ランキングで上位を占める！<span style="font-weight: bold;">３９歳以下</span>の方のみ発行可能。
+              ※還元率は<span style="font-weight: bold;">１％</span>になります。</p>
+              <div class="clearfix" id="desr">
+                  <p>１０００円ごとのご利用で１Pが付与されます。（※JCB CARD Wの場合）</p>
+                  <p>１P→３円</p>
+                  <div class="gj">
+                    <p class="desrtwo">１P→スターバックスカード４円分</p>
+                    <p class="desrthree">１P→楽天スーパーポイント４P</p>
+                    <p class="desrfour">１P→Tポイント４P</p>
+                  </div>
+                  <div class="gj">
+                    <p class="desrfive">１P→dポイント４P</p>
+                    <p class="desrsix">１P→JALのマイル３マイル</p>
+                    <p class="desrseven">１P→ANAのマイル３マイル</p>
+                  </div>
+                  <p>etc</p>
+              </div>
+            </div>
+          </a>  
+          <div class="public-site">
+            <a class="alm" href="https://www.jcb.co.jp/promotion/ordercard/w/ex/?13237243150100&ad_id=cojp_osw2sp_rtg_crt2016o_os0770&utm_medium=rtg__oss&utm_source=criteo__oss&utm_term=0000018__oss__99999">公式サイトを見る</a>
+          </div>
+          <div class="border-bottom"></div>
+        </div>
+      </li>
+    
+      <!-- 三井住友カード -->
+      <li class="list-item visa-item mastercard-item" data-kind="a b">
+        <div class="cardframe-two"> 
+          <a class="alp" href="https://www.smbc-card.com/nyukai/index.jsp">
+            <div class="kiu">
+              <img width="300px" height="" alt="三井住友カード" src="mitsuisumitomovisa_classic.png" class="jcbcardw">
+              <div class="ffd">
+                <div class="brand-money">
+                  <div class="brand-money-sen">国際ブランド</div>
+                  <div class="wq"><img width="30px" height="15px" src="visa-1af9fd37748238b15f3bc2a70598ae4e32e906e67fe65395d4d6e1e0a01d5f36.png"></div>
+                  <div class="wq"><img width="35px" height="25px" src="master_card-60073dbce64f1833e428a1935d555908f34a73ecd37a567a9c263148062dcd87.png"></div>
+                </div>
+                <div class="brand-money">
+                  <div class="brand-money-sen">電子マネー</div>
+                  <div class="wq"><img width="45px" height="45px" src="waon-1475cb93afedb87ca2779dded3a8c9ea3d41b0abc2c6ed84499cea81b5a946dd.png"></div>
+                  <div class="wq"><img width="45px" height="45px" src="id-df41bd56086f48a0061ab62b9e448448382afb507f12b19c15c01323c712202d.png"></div>
+                </div>
+              </div>
+            </div>
+            <div class="ddd">
+              <h1>三井住友カード</h1>
+              <table class="qwe">
+                <tr class="rte">
+                  <th class="giu">年会費</th>
+                  <td class="goi">無料（※初年度無料。２年目以降条件あり）</td>
+                  <th class="giu">発行スピード</th>
+                  <td class="goi">最短翌営業日</td>
+                </tr>
+                <tr>
+                  <th class="giu">特典</th>
+                  <td class="goi hj jh" id="jty">ワールドプレゼント</td>
+                  <th class="giu">還元率</th>
+                  <td class="goi">0.５%〜２.5%</td>
+                </tr>
+              </table>
+              <p>初年度年会費無料。簡単条件で2年目以降も無料！ポイントモール経由でAmazonや楽天市場などを利用すればポイント最大<strong>１０</strong>倍！
+                最短翌営業日で素早く発行！海外旅行保険最高<strong>２,000</strong>万円！</p>
+              <div class="clearfix" id="desh">
+                  <p>１０００円ごとのご利用で１Pが付与されます。</p>
+                  <p>１P→三井住友プリペイド５円分</p>
+                  <div class="gj">
+                    <p class="desrtwo">１P→スターバックスカード４円分</p>
+                    <p class="desrthree">１P→楽天スーパーポイント５P</p>
+                    <p class="desrfour">１P→Tポイント４P</p>
+                  </div>
+                  <div class="gj">
+                    <p class="desrfive">１P→dポイント５P</p>
+                    <p class="another-desrsix">１P→Amazonギフト券５円分</p>
+                    <p class="desrseven">１P→ANAのマイル３〜１５マイル</p>
+                  </div>
+                  <p>etc</p>
+              </div>
+            </div>
+          </a>  
+          <div class="public-site">
+            <a class="alm" style="background-color: #08180E;" href="https://www.smbc-card.com/nyukai/index.jsp">公式サイトを見る</a>
+          </div>
+          <div class="border-bottom"></div>
+        </div>
+      </li>
+    
+      <!-- 楽天カード -->
+      <li class="list-item visa-item mastercard-item jcb-item amex-item" data-kind="a b c d">
+        <div class="cardframe-three">
+          <a class="alp" href="https://www.rakuten-card.co.jp/card/?l-id=corp_oo_gnav_product_pc">
+            <div class="kiu">
+              <img width="300px" height="" alt="楽天カード" src="img_hero_card_silver_visa_01.png" class="jcbcardw">
+              <div class="ffd">
+                <div class="brand-money">
+                  <div class="brand-money-sen">国際ブランド</div>
+                  <div class="wq"><img width="30px" height="15px" src="vbm_blugrad01.jpg" ></div>
+                  <div class="wq"><img width="35px" height="25px" src="master_card-60073dbce64f1833e428a1935d555908f34a73ecd37a567a9c263148062dcd87.png" ></div>
+                  <div class="wq"><img width="45px" height="45px" src="Amex_logo.jpg" ></div>
+                  <div class="wq"><img width="45px" height="45px" src="header-logo.png" ></div>
+                </div>
+                <div class="brand-money">
+                  <div class="brand-money-sen">電子マネー</div>
+                  <div class="wq"><img width="45px" height="45px" src="quicpay-0fa9d0b32c7a27fe2db538005faab5d46c718851a3ae190a3d138792ccd3cecf.png"></div>
+                  <div class="wq"><img width="45px" height="45px" src="edy-logo.png"></div>
+                </div>
+              </div>
+            </div>
+            <div class="ddd">
+              <h1>楽天カード</h1>
+              <table class="qwe">
+                <tr class="rte">
+                  <th class="giu">年会費</th>
+                  <td class="goi">無料</td>
+                  <th class="giu">発行スピード</th>
+                  <td class="goi">最短翌営業日</td>
+                </tr>
+                <tr>
+                  <th class="giu">特典</th>
+                  <td class="goi lo ol" id="fji">楽天スーパーポイント</td>
+                  <th class="giu">還元率</th>
+                  <td class="goi">1.0%〜</td>
+                </tr>
+              </table>
+              <p>年会費永年無料で常に<strong>１％</strong>還元！楽天市場にて楽天カードで決済すると常に<strong>３倍</strong>に！条件を満たすと最大<strong>１６倍</strong>に！
+                 最短翌営業日で素早く発行！最高<strong>2,000</strong>万円の海外旅行傷害保険（利用付帯）。
+              </p>
+              <div class="clearfix" id="dehh">
+                  <p>１００円ごとのご利用で１Pが付与されます。</p>
+                  <p>１P→1円</p>
+                  <div class="gj">
+                    <p class="rakuten-desertwo">１P→楽天Edy１P</p>
+                    <p class="desrseven">１P→ANAのマイル１マイル</p>
+                  </div>
+                  <div class="gj">
+                    <p class="rakuten-deserthree">さまざまな提携店で使えます。</p>
+                  </div>
+              </div>
+            </div>
+          </a>  
+          <div class="public-site">
+            <a class="alm" style="background-color: #CECECF;" href="https://www.rakuten-card.co.jp/card/?l-id=corp_oo_gnav_product_pc">公式サイトを見る</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <footer>
+      <a href="#osusumeTemplate" id="page-top">
+        <img src="pagetop_btn01-ae43cf34b651420c4a0fcd3a95416a8e4aa7df2eae62080581850dc3cb5a1a23.png">
+     </a>
+    </footer>
+
+
+   <!-- <div id="app">
+    <h1 :class="classObject">Hello</h1>
+    <button @click="isActive = !isActive">切り替え</button>
+   </div> -->
+   
+   <script>
+     new Vue({
+       el: '#app',
+       data: {
+         isActive: true
+       },
+       computed: {
+         classObject: function(){
+           return {
+             red: this.isActive,
+             'bg-blue': !this.isActive
+           }
+         }
+       }
+     })
+   </script>
+
+    
+
+    
+    
+    
+      
+    <script type="text/javascript" src="./jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="creditcard.js"></script>
+   
+  </body>
+</html>
